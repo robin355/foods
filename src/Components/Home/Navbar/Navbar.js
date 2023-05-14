@@ -3,7 +3,7 @@ import card from '../../../Assets/Image/Group 3.png'
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 lg:pl-10 lg:pr-10">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,7 +26,7 @@ const Navbar = () => {
         
       </ul>
     </div>
-    <a className=" normal-case text-xl text-[#396C03]">FoodTime</a>
+    <a className=" normal-case text-xl text-[#396C03] text-semibold">FoodTime</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
