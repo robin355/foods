@@ -2,7 +2,7 @@ import React from 'react';
 import image1 from '../../../Assets/Image/image 1.png'
 import image2 from '../../../Assets/Image/—Pngtree—hand-painted noise green leaf element_4054582 1 (1).png'
 import image3 from '../../../Assets/Image/—Pngtree—hand-painted noise green leaf element_4054582 1.png'
-import image4 from '../../../Assets/Image/Rectangle 5.png'
+import image4 from '../../../Assets/Image/new-vector.png'
 import search from '../../../Assets/Image/SearchOutline.png'
 const Header = () => {
     return (
@@ -32,7 +32,9 @@ const Header = () => {
      </div>
      <div className='lg:w-1/2 w-full'>
      <div className=' w-[200px] p-2 absolute lg:top-[100px] lg:left-[880px]  z-10' style={{ backgroundImage: `url("https://i.postimg.cc/BvMTcKj4/Rectangle-5.png")` }}>
-          <h1 className='text-[#FF8B00] font-bold text-3xl'>200k+</h1>
+          <h1 className='text-[#FF8B00] flex  gap-3 font-bold text-3xl'>
+               <img src={image4}></img>
+               200k+</h1>
           <p className='text-[#838383] font-semibold text-2xl'>People Delivered</p>
      </div>
 <img className='absolute lg:top-[120px]  lg:left-[1050px] w-[288px] h-[288px]' src={image3}></img>
